@@ -23,11 +23,11 @@ export default function Navbar() {
             <div className="flex items-center justify-center gap-5">
                 <form action="">
                     <div className="flex bg-zinc-900 items-center h-10 px-4 pr-0">
-                        <div className="flex gap-4 items-center pr-5">
+                        <div className="flex gap-4 items-center pr-5 rounded-s-full">
                             <div>
                                 <AiOutlineSearch className="text-xl" />
                             </div>
-                            <input type="text" className="w-96 bg-zinc-900 focus:outline-none border-none" />
+                            <input type="text" className="w-96 bg-zinc-900 focus:outline-none border-none " />
                             {/* <AiOutlineClose className="h-10 w-16 flex items-center justify-center" */}
                             <AiOutlineClose className="text-xl cursor-pointer" />
                         </div>
